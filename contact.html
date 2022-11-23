@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body> 
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png"></a>
+            <div class="nav-links"  id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu ()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li> 
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact,html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i  class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Contact Us</h1>
+        
+    </section>
+
+
+
+
+
+    <!-- ---------------contact us--------------- -->
+
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24912.84970240729!2d76.94284304974558!3d28.399928491822056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d3d7c3f7cad37%3A0xffbb2a42441b03e0!2zMjjCsDI0JzQzLjUiTiA3NsKwNTgnMTcuNCJF!5e0!3m2!1sen!2sin!4v1652184229577!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5> XYZ Road, ABC Building</h5>
+                        <p>Gurugram, Haryana, IN</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5> +0124 22665533</h5>
+                        <p>Monday to Saturday, 10AM to 6PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <span>
+                        <h5> yadavtusharrao42002@gmail.com</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <input type="text" placeholder="Enter your name " required>
+                <input type="email" placeholder="Enter your email" required  >
+                <input type="text" placeholder="Enter your subject" required>
+                <textarea rows="8" placeholder="Enter message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send message</button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- --------------------footer------------- -->
+
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, hic fugit error voluptatum <br>
+            natus similique minima explicabo nobis repellendus repudiandae!</p>
+            <div class="icon">
+                <i class="fa fa-camera"></i>
+                <i class="fa fa-search"></i>
+                <i class="fa fa-message"></i>
+                <i class="fa fa-link"></i>
+            </div>
+            
+    </section>
+ 
+    <footer>
+     <p>Made With <i class="fa fa-heart" > </i> by Tushar Yadav</p>
+    </footer>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+       <!-- java script for toggle manue -->
+     <script>
+         var navLinks = document.getElementById("navLinks");
+         function showMenu(){
+             navLinks.style.right  = "0";
+         }
+         function hideMenu(){
+             navLinks.style.right  = "-200px";
+         }
+     </script>
+ </body>
+ </html>
